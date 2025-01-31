@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
-  
+
   body {
     background-color: #000000;
   }
@@ -63,6 +63,7 @@
     border: none;
     padding: 0.6em 0;
     border-radius: 1.25em;
+    cursor: pointer;
   }
 
   #result span {
