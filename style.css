@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
   }
+  
   body {
     background-color: #000000;
   }
@@ -20,19 +21,23 @@
     border-radius: 8px;
     box-shadow: 0 1em 2em rgba(112, 90, 23, 0.3);
   }
+
   .row {
     width: 100%;
     display: flex;
     justify-content: space-between;
     gap: 1.8em;
   }
+
   .input-wrapper {
     width: 100%;
   }
+
   label {
     font-weight: 600;
     color: #000533;
   }
+
   input {
     display: block;
     width: 100%;
@@ -44,9 +49,11 @@
     outline: none;
     border-bottom: 2px solid #000533;
   }
+
   input:focus {
     border-bottom-color: #f5c431;
   }
+
   button {
     font-size: 1.25em;
     margin: 1.25em 0 1.75em 0;
@@ -57,6 +64,7 @@
     padding: 0.6em 0;
     border-radius: 1.25em;
   }
+
   #result span {
     display: block;
     line-height: 2;
@@ -64,6 +72,7 @@
     color: #363a5f;
     margin-top: 1em;
   }
+
   #result b {
     font-size: 1.2em;
     display: block;
